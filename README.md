@@ -18,7 +18,6 @@ A local AI coding assistant that uses the Google GenAI SDK to plan and execute f
 - Troubleshooting
 - Security notes
 - Contributing
-- License
 
 ---
 
@@ -192,9 +191,6 @@ If tests import fails with circular import errors, inspect `calculator/pkg/calcu
 
 ## Troubleshooting
 
-- "zsh: command not found: bootdev"
-  - Means `bootdev` is not installed or not on PATH. Use the Python script directly.
-
 - System prompt ignored:
   - Add a system-role message to `messages` as shown above.
   - Confirm SDK version and that `GenerateContentConfig.system_instruction` is supported.
@@ -226,7 +222,3 @@ If tests import fails with circular import errors, inspect `calculator/pkg/calcu
 - Open issues or PRs with clear descriptions and reproducible steps.
 
 ---
-
-## License
-
-Choose and add a license file (e.g., `MIT`, `Apache-2.0`) in the repository root.
